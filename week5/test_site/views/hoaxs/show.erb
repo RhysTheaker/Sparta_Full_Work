@@ -1,0 +1,9 @@
+<h1><%= @hoax.name.capitalize %></h1>
+<p>What is the hoax? Well... <%= @hoax.info %></p>
+<div>
+  <a href="/<%= @hoax.id %>/edit">Edit Hoax</a>
+  <form class="" action="/<%= @hoax.id %>" method="post">
+    <input type="submit" name="" value="Delete Post">
+    <input type="hidden" name="_method" value="delete">
+  </form>
+</div>

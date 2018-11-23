@@ -1,0 +1,21 @@
+body {
+  background-color: #fafafa;
+  margin: 0 5%;
+}
+
+.leftBtn {
+  color: black;
+}
+
+.leftBtn:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.leftBtn:active {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #a9a9a9;
+}

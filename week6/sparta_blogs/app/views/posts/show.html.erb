@@ -1,0 +1,19 @@
+<%= link_to "Home", posts_path %>
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<p><%= @post.author %></p>
+<%= link_to "Edit", edit_post_path(@post) %>
+<%= link_to "Delete", @post, method: :delete %>
+
+<hr>
+
+<h2>Comments section</h2>
+
+<!-- pass in a collection of information, and passes it in as "comment". Treats each bit of information individually -->
+<%= render partial: 'comments/comment', collection: @post.comments, as: :comment%>
+
+<hr>
+
+<h2>Add Comment</h2>
+
+<%= render partial: 'comments/form', locals: { comment: @post.comments.new }%>

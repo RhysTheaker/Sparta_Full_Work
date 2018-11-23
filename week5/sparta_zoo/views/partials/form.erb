@@ -1,0 +1,18 @@
+<form class="" action="/<%= @animal.id %>" method="post">
+  <div class="">
+    <label>Name</label>
+    <input type="text" name="name" value="<%= @animal.name %>" placeholder="Enter Animal's Name">
+  </div>
+
+  <div class="">
+    <label>Fact</label>
+    <input type="text" name="fact" value="<%= @animal.fact %>" placeholder="Enter Animal's Fact">
+  </div>
+
+  <input type="submit" name="" value="Add Animal">
+
+  <% if @animal.id %>
+  <input type="hidden" name="_method" value="put">
+  <% end %>
+
+</form>

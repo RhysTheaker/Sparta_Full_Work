@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+# A gem called mac-say, and above is where you can find it
+gem 'mac-say'
+
+# A gem called faker, and above is where you can find it
+gem 'faker'

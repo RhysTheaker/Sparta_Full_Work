@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Testing</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Create a function -->
+    <script type="text/javascript">
+      function changetext () {
+        document.getElementById('demo4').innerHTML = "Changed Text";
+      }
+    </script>
+
+  </head>
+  <body>
+
+    <!-- Targets the innerHTML element with the ID='demo'. The button will replace the content within the HTML element with ID='demo' with the display of time and date -->
+    <h2>My First JavaScript</h2>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    <p id="demo"></p>
+    <br>
+    <br>
+
+    <!-- Changes the value of the src attribute of an image -->
+    <h2>My First JavaScript</h2>
+    <!-- This button will display the physics image -->
+    <button onclick="document.getElementById('myImage').src='images/efp-image.jpg'">Turn on the light</button>
+    <!-- Image to display when light is turned off -->
+    <img id="myImage" src="images/forest-fire-image.jpeg" style="width:100px">
+    <!-- New button to toggle the light when it is turned off -->
+    <button onclick="document.getElementById('myImage').src='images/forest-fire-image.jpeg'">Turn off the light</button>
+    <br>
+    <br>
+
+    <!-- Change the fontsize of the paragraph -->
+    <p id="demo3">This Text Is Changed By The Button</p>
+    <button type="button" onclick="document.getElementById('demo3').style.fontSize='40px'">Click me to change the fontsize</button>
+    <br>
+    <br>
+
+    <!-- Traget the innerHTML content with a defined function which targets a specific HTML Id -->
+    <p id="demo4">This text will be changed</p>
+    <button type="button" onclick="changetext()">Click me to change the above text</button>
+
+    <!-- Target the innerHTML with an external style sheet -->
+    <p id="demo5">Initial text</p>
+    <button type="button" onclick="externalfn()">change above text</button>
+
+
+    <!-- Target the innerHTML with an external style sheet which has defined varibales and a mathematical operation as the output -->
+    <p id="demo6">This text is replaced by the sum of a+b=c</p>
+    <button type="button" onclick="varfn()">change the above text with the answer to a+b=c</button>
+
+    <!-- Demonstartes the boolian function -->
+    <p id="demo7">Boolian example</p>
+    <button type="button" onclick="truefalsefn()">Click me</button>
+
+    <!-- Example of creating and importing a JavaScript function with input values from an external sheet -->
+    <p id="demo8">This will change to display the value of the function with specified input values</p>
+    <button type="button" onclick="parameterfn(4,3)">Click me</button>
+
+    <!-- Example using this. to target certain elements of an objects to output -->
+    <p id="demo9">Display profile here</p>
+    <button type="button" onclick="document.getElementById('demo9').innerHTML = person.fullName()">Click here to display profile</button>
+
+    <!-- Output the list -->
+    <p id='demo10'>This will become the list output</p>
+    <button type="button" onclick="outputfn()">Click here to display the list of items</button>
+
+    <!-- creates a script to return person profile-->
+    <script type="text/javascript">
+      var person = {
+        firstName: "John",
+        lastName: "Doe",
+        id: 5566,
+        fullName : function() {
+          return this.firstName + " " + this.lastName;
+        }
+      }
+    </script>
+
+    <!-- Import the external JavaScript sheet -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div id="top" class="navbar nav-top">
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <form class="form-inline btn-left">
+          <a href="pages/projects.html"><button class="btn btn-outline-success" type="button" href="#">My Projects</button></a>
+        </form>
+        <form class="form-inline btn-right">
+          <button type="button" class="btn btn-primary btn-sm"><a href="#about-me">About Me</a></button>
+          <button type="button" class="btn btn-primary btn-sm"><a href="#education">Education</a></button>
+          <button type="button" class="btn btn-primary btn-sm"><a href="#work-history">Work History</a></button>
+          <button type="button" class="btn btn-primary btn-sm"><a href="#skills">Skills</a></button>
+        </form>
+      </nav>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Rhys Theaker</h1>
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <h2>About Me</h2>
+    <div id="about-me" class="container">
+      <div class="row position-middle">
+        <!-- Profile Picture -->
+        <div class="col-12">
+          <img src="images/profile-picture-image.jpg" alt="Profile picture" class="profile-image">
+        </div>
+        <!-- Information About Me -->
+        <div class="col-8">
+          <p>Hello! I'm Rhys Alexander Theaker and I entered the world on the 19th January 1996 at Barnsley Hospital. For 22 years I lived in a small town in Sheffield, named Penistone. After recently graduating from the University of Birmingham, with a first class degree in Theoretical Physics, I am now currently training as a Junior Technology Consultant at Sparta Global. Aside from work, my time and energy revolves around anything sports related, the majority of which being football. Not only a season ticket holder at Sheffield United, I travel the country to follow the red and white. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <div id="education" class="container">
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top education-images" src="images/penistone-grammar-image.jpg" alt="Penistone Grammar School">
+          <div class="card-body">
+            <h5 class="card-title">Secondary School/Sixth Form</h5>
+            <p class="card-text">I studied for my GCSE and A-Levels at Penistone Grammar.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top education-images" src="images/exam-image.jpg" alt="Exam Results">
+          <div class="card-body">
+            <h5 class="card-title">Exam Results</h5>
+            <p class="card-text">At GCSE level, I achieved seven A*'s and four A's. Two years later, after completing my A-Level examinations, I achieved an A in AS Chemistry, A* in both A-Level Mathematics and Further Mathematics and finally an A in Physics.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top education-images" src="images/UoB-image.jpg" alt="University">
+          <div class="card-body">
+            <h5 class="card-title">University</h5>
+            <p class="card-text">I graduated from the University of Birmingham with a first class MSci Theoretical Physics degree.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work History -->
+    <h2>Work History</h2>
+    <div id="work-history" class="container">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Bartending
+            </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <img src="images/bartending-image.jpg" alt="Bartending image" class="work-images">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p>Communication and professionalism were vital in various tasks, which included handling customers’ money; re-stocking the bar at the end of a night and dealing with customer complaints.</p>
+                  <p>Working over the festive period and at wedding events, where the number of customers is high, taught me essential skills in operating efficiently within a team. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Placement: Non-Destructive-Testing
+            </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 col-12-sm">
+                  <img src="images/ndt-image.jpg" alt="Non-Destructive-Testing image" class="work-images">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p>I spent 8 weeks with three departments, ultrasonic, radiography and eddy current; learning the theory and experimental technique of how to detect and characterise defects in metals and welds.</p>
+                  <p>I worked both independently and in small groups to gain experience using high quality equipment (e.g. X-ray and Gamma radiation beams). Successful execution of tasks assigned highlight my responsible and committed attitude, due to the high risk and challenging nature of the role, as well as my ability to work well in a team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Sparta Global: Junior Technology Consultant
+            </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6 col-12-sm">
+                  <img src="images/consultancy-image.jpeg" alt="Tech Consultant image" class="work-images">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p>Currently I am training as a Junior Technology Consultant with Sparta Global. The training phase is an intense thirteen week course which covers a broad range of topics. From programming languages such as HTML, CSS and JavaScript, the essential web-based programming tools, to project management approaches such as Agile, this knowledge will be applied when placed on various software related projects around the UK. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <div id="skills" class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 centre-list">
+          <ul>
+            <li>Mathematics and Problem Solving</li>
+            <li>Highly Analytical</li>
+            <li>Interpersonal Skills</li>
+            <li>Mentoring and Teaching</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 centre-list">
+          <ul>
+            <li>LaTeX</li>
+            <li>Experience with C++ and MATLAB</li>
+            <li>Team Working</li>
+            <li>Presentational Skills</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Nav Bar -->
+    <nav class="bottom-nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+        <a href="#top">Back to top</a>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "coord"=>
+  {
+    "lon"=>-1.63,
+    "lat"=>53.52
+  },
+  "weather"=>
+  [
+    {
+      "id"=>801,
+      "main"=>"Clouds",
+      "description"=>"few clouds",
+      "icon"=>"02d"
+    }
+  ],
+  "base"=>"stations",
+  "main"=>
+  {
+    "temp"=>284.88,
+    "pressure"=>1028,
+    "humidity"=>53,
+    "temp_min"=>284.15,
+    "temp_max"=>286.15
+  },
+  "visibility"=>10000,
+  "wind"=>
+  {
+    "speed"=>1.5
+  },
+  "clouds"=>
+  {
+    "all"=>20
+  },
+  "dt"=>1539865200,
+  "sys"=>
+  {
+    "type"=>1,
+    "id"=>5101,
+    "message"=>0.0421,
+    "country"=>"GB",
+    "sunrise"=>1539844792,
+    "sunset"=>1539882141
+  }, 
+  "id"=>2640463,
+  "name"=>"Penistone",
+  "cod"=>200
+}

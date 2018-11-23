@@ -1,0 +1,21 @@
+<form class="" action="/<%= @post.id %>" method="post">
+  <div class="">
+  <label for="">Title</label>
+  <input type="text" name="title" value="<%= @post.title %>">>
+</div>
+
+
+<div class="">
+  <label for="">Body</label>
+  <textarea name="body" rows="8" cols="80"><%= @post.body %></textarea>
+</div>
+
+<div class="">
+  <input type="submit" name="" value="Save Post">
+</div>
+
+<%if @post.id != ""%>
+   <input type="hidden" name="_method" value="put">
+ <%end %>
+
+</form>

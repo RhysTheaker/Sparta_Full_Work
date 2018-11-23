@@ -1,0 +1,154 @@
+
+@keyframes image-transition {
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@keyframes spin {
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(180deg);}
+  100%{transform: rotate(360deg);}
+}
+
+.container {
+  /* border: 1px solid black; */
+}
+
+.col-6{
+  /* border: black 1px solid; */
+}
+
+.box {
+  /* border: 1px solid black; */
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-middle {
+  /* border: 1px solid black; */
+}
+
+.box-bottom {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: 1px solid black;
+}
+
+.flag-image {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15px;
+  border: 5px black solid;
+}
+
+.flag-image:hover {
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+  cursor: pointer;
+  border: 7px black solid;
+  animation: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.nav-bottom {
+  margin-top: 100px;
+}
+
+.button-center {
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #fafafa;
+  color: black;
+  border: 2px #D3D3D3 solid;
+}
+
+.btn-primary:hover {
+  background-color: #fafafa;
+  color: black;
+  border: 4px #D3D3D3 solid;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: white;
+}
+
+.jumbotron {
+  background-image: linear-gradient(white, red, blue, white);
+  color: white;
+  text-shadow: 3px 3px black;
+  opacity: 0.7;
+}
+
+.card-deck {
+  margin-bottom: 100px;
+}
+
+.card {
+  border: none;
+}
+
+.text-image {
+  max-width: 100%;
+  height: 120px;
+}
+
+.text-image:hover {
+  animation: image-transition;
+  animation-duration: 10s;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 0;
+}
+
+.carousel-control-prev:hover {
+  opacity: 0.2;
+}
+
+.carousel-control-next:hover {
+  opacity: 0.2;
+}
+
+h5 {
+  text-align: center;
+}
+
+a {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  border: 3px #A9A9A9 solid;
+  font-weight: bold;
+  color: black;
+}
+
+.box-bottom {
+  border: none;
+}
+
+.col-md-3 h5 {
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .card-deck {
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .box {
+    padding: 0;
+  }
+}

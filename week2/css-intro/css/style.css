@@ -1,0 +1,43 @@
+/* li {
+  background-color: pink;
+}
+
+p {
+  color: green;
+} */
+
+.name, ul {
+  background-color: red;
+}
+
+.para1, .para2 {
+  background-color: green;
+  border: 2px solid black;
+  padding: 25px;
+  margin: 10px;
+}
+
+.para1 {
+  float: left;
+  width: 20%;
+}
+
+.para2 {
+  float: right;
+  width: 60%;
+}
+
+.span1, .span2 {
+  border: black solid;
+  width: 40%;
+}
+
+.span1 {
+  float: left;
+  margin-right: 25px;
+}
+
+.span2 {
+  float: right;
+  margin-left: 25px;
+}

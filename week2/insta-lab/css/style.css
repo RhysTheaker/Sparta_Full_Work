@@ -1,0 +1,241 @@
+
+.background {
+  background-color: #fafafa;
+  font-family: sans-serif;
+}
+
+/* Styles the main body */
+.main-body {
+  margin: auto;
+  width: 900px;
+  height: 960px;
+}
+
+/* Picture of iPhone */
+.image-div {
+  float: left;
+  margin-top: 150px;
+  margin-right: 3px;
+}
+
+/* Signing-up section */
+.main-content {
+  float: left;
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 3px;
+}
+
+/* Instagram logo */
+.insta-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  width: 50%;
+}
+
+/* heading */
+.heading {
+  display: block;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
+  font-weight: 545;
+  line-height: 23px;
+  font-size: 18px;
+  color: #999;
+  font-weight: bold;
+}
+
+/* log in button */
+.log-in-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #3897f0;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 545;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Break */
+.break {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 25px;
+  color: #efefef;
+}
+
+/* Next button */
+.next-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32%;
+  padding-right: 32%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #3897f0;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 545;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Policy text */
+.policy-text {
+  display: block;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 30%;
+  text-align: center;
+  font-weight: 545;
+  line-height: 18px;
+  font-size: 14px;
+  color: #999;
+}
+
+/*  Log-in section */
+.log-in-div {
+  height: 665px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  margin-bottom: 10px;
+}
+
+/* Sign-in section */
+.account-div {
+  height: 70px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+}
+
+/* Log in */
+.acc-log-in {
+  display: block;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Download images */
+.download {
+  height: 100px;
+  margin-top: 6%;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+/* Text to get the user to get the app */
+.get-app-text {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* App Store and Google Play images */
+.badge {
+  display: inline-block;
+  margin-top: 6%;
+  height: 40px;
+  width: 130px;
+}
+
+/* Bottom nav-bar */
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #fafafa;
+  height: 60px;
+  bottom: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left-link {
+  display: inline-block;
+  margin: 9px;
+  float: left;
+  color: #003569;
+}
+
+.right-link {
+  display: inline-block;
+  margin: 9px;
+  float: right;
+  color: #999;
+}
+
+.login {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+/* Inputs */
+input {
+  background-color: #fafafa;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 18px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 35%;
+  padding-left: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  text-align: left;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+@media (max-width: 840px) {
+  .image-div {
+    display: none;
+  }
+
+  .main-body {
+    width: 100%;
+    height: 890px;
+  }
+
+  .main-content {
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .navbar {
+    width: 390px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    width: 100%;
+  }
+}

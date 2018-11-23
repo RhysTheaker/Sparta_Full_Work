@@ -1,0 +1,17 @@
+<%= link_to "New Post", new_post_path %>
+
+<h1>SpartaBlogs</h1>
+<% @posts.each do |post| %>
+  <!-- name of link, then where we want the link to go -->
+  <%= link_to "#{post.title}", post %>
+  <p><%= post.body %></p>
+  <p><%= post.author %></p>
+  <br>
+  <!-- go to edit page for this current post. The varibale is to tell the computer which post we wish to edit -->
+  <%= link_to "Edit", edit_post_path(post) %>
+
+  <%= link_to "Delete", post, method: :delete %>
+  <br>
+  <br>
+  <br>
+<% end %>

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.nav-flex {
+  background-color: yellow;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container-horizontal {
+  display: flex;
+  height: 70vh;
+  background-color: grey;
+  margin-top: 10vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-container-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+  background-color: orange;
+}
+
+.phone-image {
+  background-color: blue;
+  width: 270px;
+  height: 100%;
+  color: white;
+  margin: auto;
+}
+
+.box {
+  border: 1px solid black;
+  width: 270px;
+  margin: auto;
+}
+
+.logo {
+  flex: 20;
+}
+
+.fblogin {
+  flex: 10;
+}
+
+.form {
+  flex: 35;
+}
+
+.nextbutton {
+  flex: 25;
+}
+
+.accbutton {
+  flex: 10;
+}
+
+a {
+  margin: 5px;
+}
+
+@media (max-width: 700px) {
+  .left {
+    display: none;
+  }
+
+  .nav-flex {
+    height: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .right, .box {
+    width: 100%;
+  }
+}

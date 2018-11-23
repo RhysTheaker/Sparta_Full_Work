@@ -1,0 +1,7 @@
+<h1>Grounds</h1>
+
+<% @grounds.each do |ground| %>
+  <h2>Name of ground: <%= link_to "#{ground.name}", ground %></h2>
+  <p><%= truncate(ground.desc, :length => 50) %></p>
+  <h2>Location: <%= ground.location %></h2>
+<% end %>

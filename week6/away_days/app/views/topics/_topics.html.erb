@@ -1,0 +1,8 @@
+<h2>Pubs For Away Fans</h2>
+<p><%= topic.pubs %></p>
+<br>
+<h2>Travel Information</h2>
+<p><%= topic.location %></p>
+<br>
+<%= link_to "Edit" edit_ground_topic_path(@ground, topic) %>
+<%= link_to "Delete", [@ground, topic], method: :delete %>

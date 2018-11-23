@@ -1,0 +1,13 @@
+<!-- Information on the ground -->
+<h1><%= @ground.name %></h1>
+
+<p><%= @ground.desc %></p>
+
+<h2>Location: <%= @ground.location %></h2>
+
+<%= render partial: 'topics/topics', collection: @ground.topics, as: :topic %>
+
+<!-- Edit and delete buttons -->
+<%= link_to "Edit Ground Details", edit_ground_path %>
+<%= link_to "Delete Ground", @ground, method: :delete %>
+<%= link_to "New Topic", new_ground_topic_path(@ground) %>

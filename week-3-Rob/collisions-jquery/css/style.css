@@ -1,0 +1,49 @@
+body {
+  font-family: fantasy;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.container {
+  background: #999;
+  border-radius: 1em;
+  height:300px;
+  margin: 10% auto;
+  position: relative;
+  width:400px;
+}
+
+#ball {
+  background: lime;
+  border-radius: 50%;
+  height:30px;
+  position: absolute;
+  width:30px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+#btn {
+  background: none;
+  border-radius: 1.5em;
+  border: 2px solid #999;
+  color:#999;
+  font-size: 1.5em;
+  outline: none;
+  padding:.5em 1.5em;
+  transition: .2s;
+}
+
+#btn:hover {
+  background: #999;
+  border: 2px solid #999;
+  color: white;
+}
+
+#btn:active {
+  background: #666;
+  border: 2px solid #666;
+  color: white;
+}

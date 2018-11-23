@@ -1,0 +1,56 @@
+.navbar {
+  background-color: black;
+}
+
+.logo {
+  height: 157px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 20%;
+  border: 5px black solid;
+}
+
+.main-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#headshot {
+  border-radius: 50%;
+  width: 20%;
+  border: 5px black solid;
+}
+
+nav div ul {
+  list-style: none;
+}
+
+nav div ul li a:hover {
+  color:grey;
+}
+
+nav div ul li a {
+  color: white;
+}
+
+nav div ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+div img {
+  width: 30%;
+}
+
+h1, h4 {
+  color: #E13A63;
+}

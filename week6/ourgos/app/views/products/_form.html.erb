@@ -1,0 +1,41 @@
+<%= form_for product do |p| %>
+  <!-- if there is errors, when attempting to add a new item, then do the following: -->
+  <% if product.errors.any? %>
+    <!-- inform the user how many errors there are left to fix -->
+    <h2><%= pluralize(product.errors.count, 'error') %> to fix</h2>
+    <!-- inform the user the error messages -->
+    <% product.errors.full_messages.each do |message| %>
+      <ul>
+      <li><%= message %></li>
+      </ul>
+    <% end %>
+  <% end %>
+
+  <div class="field">
+    <!-- add a label with text "title" -->
+    <%= p.label :name %>
+    <!-- return the input text as the "varibale" = title -->
+    <%= p.text_field :name %>
+  </div>
+  <br>
+  <div class="field">
+    <%= p.label :desc %>
+    <!-- text area so you can put more text in it -->
+    <%= p.text_area :desc %>
+  </div>
+  <br>
+  <div class="field">
+    <%= p.label :stock %>
+    <!-- text area so you can put more text in it -->
+    <%= p.text_field :stock %>
+  </div>
+  <br>
+  <div class="field">
+    <%= p.label :price %>
+    <%= p.text_field :price %>
+  </div>
+  <br>
+  <div class="field">
+    <%= p.submit %>
+  </div>
+<% end %>

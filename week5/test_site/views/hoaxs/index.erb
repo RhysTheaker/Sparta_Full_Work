@@ -1,0 +1,10 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Go on then. I bet you it's a hoax.</h1>
+  </div>
+</div>
+
+<!-- Display all the hoaxes to the index (home) page -->
+<% @hoaxs.each do |hoax| %>
+  <h2> <a href="<%= hoax.id %>"><%= hoax.name %></a> </h2>
+<% end %>

@@ -1,0 +1,15 @@
+<%= form_for [@post,comment] do |c| %>
+  <div class="field">
+    <!-- add a label with text "title" -->
+    <%= c.label :body %>
+    <!-- return the input text as the "varibale" = title -->
+    <%= c.text_area :body %>
+  </div>
+  <div class="field">
+    <%= c.label :author %>
+    <%= c.text_field :author %>
+  </div>
+  <div class="actions">
+    <%= c.submit %>
+  </div>
+<% end %>

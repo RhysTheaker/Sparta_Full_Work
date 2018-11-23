@@ -1,0 +1,15 @@
+<br>
+<!-- if the edit/creation of a product has been successful then prompt the user -->
+<%= notice %>
+
+<h1><%= @product.name %></h1>
+
+<h2>£<%= @product.price %></h2>
+
+<p>Item Description: <%= @product.desc %></p>
+
+<%= image_tag "#{@product.pic}" %>
+
+<%= link_to "Edit Product Details", edit_product_path %>
+<!-- target the @product, and apply the method: delete -->
+<%= link_to "Delete Product Details", @product, method: :delete %>

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.left {
+  background-color: black;
+  height: 33.33vh;
+  width: 100vw;
+}
+
+.centre {
+  background-color: red;
+  height: 33.33vh;
+  width: 100vw;
+}
+
+.right {
+  background-color: yellow;
+  height: 33.33vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 550px) {
+  .left {
+    background-color: black;
+    height: 100vh;
+    width: 33.33vw;
+    float: left;
+  }
+
+  .centre {
+    background-color: yellow;
+    height: 100vh;
+    width: 33.33vw;
+    float: left;
+  }
+
+  .right {
+    background-color: red;
+    height: 100vh;
+    width: 33.33vw;
+    float: left;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .centre {
+    display: none;
+  }
+
+}

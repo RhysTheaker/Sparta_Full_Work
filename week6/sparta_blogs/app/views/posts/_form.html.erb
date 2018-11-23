@@ -1,0 +1,21 @@
+<%= form_for post do |p| %>
+  <div class="field">
+    <!-- add a label with text "title" -->
+    <%= p.label :title %>
+    <!-- return the input text as the "varibale" = title -->
+    <%= p.text_field :title %>
+  </div>
+  <div class="field">
+    <%= p.label :body %>
+    <!-- text area so you can put more text in it -->
+    <%= p.text_area :body %>
+  </div>
+  <div class="field">
+    <%= p.label :author %>
+    <%= p.text_field :author %>
+  </div>
+  <br>
+  <div class="field">
+    <%= p.submit %>
+  </div>
+<% end %>

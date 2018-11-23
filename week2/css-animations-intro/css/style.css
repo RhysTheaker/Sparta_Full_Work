@@ -1,0 +1,56 @@
+@keyframes color-change {
+  0%{ background-color: blue;}
+  50%{ background-color: orange;}
+  100%{ background-color: yellow;}
+}
+
+@keyframes movement {
+  from{left: 100px;}
+  to{left: 700px;}
+}
+
+.ball {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+
+.ball:hover {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.ball:active {
+  border-radius: 0;
+  background-color: green;
+}
+
+.input-field:focus {
+  background-color: black;
+  color: white;
+}
+
+.animation1 {
+  animation: color-change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.animation2 {
+  position: relative;
+  animation: color-change 3s infinite,
+  movement 5s infinite alternate;
+}
+
+.box:hover {
+  cursor: crosshair;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+}

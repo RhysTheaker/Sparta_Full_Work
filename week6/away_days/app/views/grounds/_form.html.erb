@@ -1,0 +1,24 @@
+<%= form_for ground do |g| %>
+  <div class="field">
+    <!-- Allow the addition of the new name of a ground -->
+    <%= g.label :name %>
+    <%= g.text_field :name %>
+  </div>
+  <br>
+  <!-- Allow the addition of the description for the new ground -->
+  <div class="field">
+    <%= g.label :desc %>
+    <%= g.text_area :desc %>
+  </div>
+  <br>
+  <!-- Allow the addition of the location of the new ground -->
+  <div class="field">
+    <%= g.label :location %>
+    <%= g.text_field :location %>
+  </div>
+  <br>
+  <!-- button to confirm the above information and make/update an instance of the "Ground" class -->
+  <div class="field">
+    <%= g.submit %>
+  </div>
+<% end %>

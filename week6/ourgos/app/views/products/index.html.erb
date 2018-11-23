@@ -1,0 +1,11 @@
+<h1>Products Catalogue</h1>
+
+<% @products.each do |product| %>
+  <div class="">
+    <%= image_tag "#{product.pic}" %>
+    <h2><%= link_to "#{product.name}", product %></h2>
+    <!-- truncate the product description to a chosen length. This was automatically ass on the ellipse -->
+    <p><%= truncate(product.desc, :length => 50) %></p>
+    <p>£<%= product.price %></p>
+  </div>
+<% end %>

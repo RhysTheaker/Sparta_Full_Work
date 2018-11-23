@@ -1,0 +1,20 @@
+<!-- This form should be applied (action) to the page which we want to edit -->
+<form class="" action="/<%= @post[:id] %>" method="post">
+  <div class="Title">
+    <label>Title</label>
+    <input type="text" name="title" value="<%= @post[:title] %>">
+  </div>
+
+  <div class="Title">
+    <label>Body</label>
+    <textarea type="text" name="body"><%= @post[:body] %></textarea>
+  </div>
+
+  <div class="Body">
+    <input type="submit" name="" value="Save Post">
+  </div>
+
+  <% if @post[:id] != "" %>
+    <input type="hidden" name="_method" value="put">
+  <% end %>
+</form>

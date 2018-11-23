@@ -1,0 +1,648 @@
+[
+  {
+    "id": 1,
+    "first_name": "Rod",
+    "last_name": "Franey",
+    "email": "rfraney0@ehow.com",
+    "gender": "Male",
+    "address": {
+      "street_num": "8",
+      "street_name": "Lunder",
+      "city": "Doksy",
+      "country": "Czech Republic",
+      "zip": "472 01",
+      "vehicle": {
+        "car_make": "Chrysler",
+        "car_model": "Town & Country",
+        "colour": "Khaki"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Mischa",
+        "last_name": "Heaviside"
+      },
+      {
+        "first_name": "Dian",
+        "last_name": "Plinck"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Land iguana",
+            "legs": 1
+          },
+          {
+            "animal": "Eagle, crowned",
+            "legs": 2
+          },
+          {
+            "animal": "Weeper capuchin",
+            "legs": 3
+          },
+          {
+            "animal": "Brown brocket",
+            "legs": 4
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Roseat flamingo",
+            "legs": 1
+          },
+          {
+            "animal": "Nyala",
+            "legs": 2
+          },
+          {
+            "animal": "Pied kingfisher",
+            "legs": 3
+          },
+          {
+            "animal": "Grison",
+            "legs": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Zena",
+    "last_name": "Lapslie",
+    "email": "zlapslie1@bandcamp.com",
+    "gender": "Female",
+    "address": {
+      "street_num": "2",
+      "street_name": "Hayes",
+      "city": "Changqing",
+      "country": "China",
+      "zip": null,
+      "vehicle": {
+        "car_make": "Chevrolet",
+        "car_model": "Suburban 2500",
+        "colour": "Mauv"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Horton",
+        "last_name": "Chesters"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Oribi",
+            "legs": 1
+          },
+          {
+            "animal": "Tokay gecko",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "African bush squirrel",
+            "legs": 1
+          },
+          {
+            "animal": "Grouse, sage",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Red-knobbed coot",
+            "legs": 1
+          },
+          {
+            "animal": "Cormorant, flightless",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Bandicoot, southern brown",
+            "legs": 1
+          },
+          {
+            "animal": "Striped dolphin",
+            "legs": 2
+          },
+          {
+            "animal": "Bateleur eagle",
+            "legs": 3
+          },
+          {
+            "animal": "Raccoon dog",
+            "legs": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Lani",
+    "last_name": "Brouwer",
+    "email": "lbrouwer2@gravatar.com",
+    "gender": "Female",
+    "address": {
+      "street_num": "3797",
+      "street_name": "Doe Crossing",
+      "city": "Baykonyr",
+      "country": "Kazakhstan",
+      "zip": null,
+      "vehicle": {
+        "car_make": "Chevrolet",
+        "car_model": "Volt",
+        "colour": "Puce"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Marcelo",
+        "last_name": "Sprulls"
+      },
+      {
+        "first_name": "Raynor",
+        "last_name": "Sibson"
+      },
+      {
+        "first_name": "Lynnet",
+        "last_name": "Carman"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Mongoose, yellow",
+            "legs": 1
+          },
+          {
+            "animal": "Large cormorant",
+            "legs": 2
+          },
+          {
+            "animal": "Pelican, eastern white",
+            "legs": 3
+          },
+          {
+            "animal": "Grouse, sage",
+            "legs": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Tremayne",
+    "last_name": "Netherclift",
+    "email": "tnetherclift3@trellian.com",
+    "gender": "Male",
+    "address": {
+      "street_num": "742",
+      "street_name": "Eggendart",
+      "city": "Libertad",
+      "country": "Argentina",
+      "zip": "3374",
+      "vehicle": {
+        "car_make": "Lamborghini",
+        "car_model": "Countach",
+        "colour": "Khaki"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Deerdre",
+        "last_name": "Willson"
+      },
+      {
+        "first_name": "Eduard",
+        "last_name": "Antonognoli"
+      },
+      {
+        "first_name": "Desiri",
+        "last_name": "Norheny"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Insect, stick",
+            "legs": 1
+          },
+          {
+            "animal": "Hartebeest, coke's",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Turkey vulture",
+            "legs": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Wolfgang",
+    "last_name": "D'Costa",
+    "email": "wdcosta4@epa.gov",
+    "gender": "Male",
+    "address": {
+      "street_num": "1468",
+      "street_name": "Old Shore",
+      "city": "Frederiksberg",
+      "country": "Denmark",
+      "zip": "1823",
+      "vehicle": {
+        "car_make": "Cadillac",
+        "car_model": "Catera",
+        "colour": "Yellow"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Towney",
+        "last_name": "Spiring"
+      },
+      {
+        "first_name": "Barnebas",
+        "last_name": "Itscovitz"
+      },
+      {
+        "first_name": "Bo",
+        "last_name": "Isles"
+      },
+      {
+        "first_name": "Ina",
+        "last_name": "Heasly"
+      },
+      {
+        "first_name": "Fern",
+        "last_name": "Varran"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Dog, black-tailed prairie",
+            "legs": 1
+          },
+          {
+            "animal": "Blue fox",
+            "legs": 2
+          },
+          {
+            "animal": "Grey phalarope",
+            "legs": 3
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Sambar",
+            "legs": 1
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Common pheasant",
+            "legs": 1
+          },
+          {
+            "animal": "Paddy heron (unidentified)",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Indian porcupine",
+            "legs": 1
+          },
+          {
+            "animal": "Squirrel, malabar",
+            "legs": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "first_name": "Ginelle",
+    "last_name": "Fawcus",
+    "email": "gfawcus5@ask.com",
+    "gender": "Female",
+    "address": {
+      "street_num": "12920",
+      "street_name": "Kennedy",
+      "city": "Rautjärvi",
+      "country": "Finland",
+      "zip": "56610",
+      "vehicle": {
+        "car_make": "GMC",
+        "car_model": "Canyon",
+        "colour": "Teal"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Eli",
+        "last_name": "Admans"
+      },
+      {
+        "first_name": "Kissee",
+        "last_name": "Ranson"
+      },
+      {
+        "first_name": "Natassia",
+        "last_name": "McPeeters"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Squirrel, malabar",
+            "legs": 1
+          },
+          {
+            "animal": "Baboon, olive",
+            "legs": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "first_name": "Horace",
+    "last_name": "Greedy",
+    "email": "hgreedy6@list-manage.com",
+    "gender": "Male",
+    "address": {
+      "street_num": "301",
+      "street_name": "Montana",
+      "city": "Drochia",
+      "country": "Moldova",
+      "zip": "MD-5233",
+      "vehicle": {
+        "car_make": "Infiniti",
+        "car_model": "Q",
+        "colour": "Khaki"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Cos",
+        "last_name": "Crossan"
+      },
+      {
+        "first_name": "Fredric",
+        "last_name": "Burgill"
+      },
+      {
+        "first_name": "Othello",
+        "last_name": "Sprowle"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Kudu, greater",
+            "legs": 1
+          },
+          {
+            "animal": "Swan, black",
+            "legs": 2
+          }
+        ]
+      },
+      {
+        "mammal": [
+          {
+            "animal": "Azara's zorro",
+            "legs": 1
+          },
+          {
+            "animal": "Racer snake",
+            "legs": 2
+          },
+          {
+            "animal": "Rhinoceros, black",
+            "legs": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "first_name": "Barde",
+    "last_name": "Pile",
+    "email": "bpile7@wsj.com",
+    "gender": "Male",
+    "address": {
+      "street_num": "5",
+      "street_name": "Clarendon",
+      "city": "Jingu",
+      "country": "China",
+      "zip": null,
+      "vehicle": {
+        "car_make": "Ford",
+        "car_model": "Bronco",
+        "colour": "Goldenrod"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Candace",
+        "last_name": "Corbin"
+      },
+      {
+        "first_name": "Jamima",
+        "last_name": "Fatkin"
+      },
+      {
+        "first_name": "Beck",
+        "last_name": "Morter"
+      },
+      {
+        "first_name": "Salaidh",
+        "last_name": "Gogie"
+      },
+      {
+        "first_name": "Farrell",
+        "last_name": "Childs"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Langur, common",
+            "legs": 1
+          },
+          {
+            "animal": "Cat, african wild",
+            "legs": 2
+          },
+          {
+            "animal": "White-winged dove",
+            "legs": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "first_name": "Delmor",
+    "last_name": "Patel",
+    "email": "dpatel8@seesaa.net",
+    "gender": "Male",
+    "address": {
+      "street_num": "9944",
+      "street_name": "Russell",
+      "city": "Ekenäs",
+      "country": "Finland",
+      "zip": "35530",
+      "vehicle": {
+        "car_make": "Volkswagen",
+        "car_model": "Tiguan",
+        "colour": "Violet"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Sven",
+        "last_name": "Rapson"
+      },
+      {
+        "first_name": "Kare",
+        "last_name": "Du Plantier"
+      },
+      {
+        "first_name": "Guillaume",
+        "last_name": "Claridge"
+      },
+      {
+        "first_name": "Stephie",
+        "last_name": "Hildrew"
+      },
+      {
+        "first_name": "Matti",
+        "last_name": "Frostdyke"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Monkey, vervet",
+            "legs": 1
+          },
+          {
+            "animal": "Whip-tailed wallaby",
+            "legs": 2
+          },
+          {
+            "animal": "Swan, black",
+            "legs": 3
+          },
+          {
+            "animal": "Rufous-collared sparrow",
+            "legs": 4
+          },
+          {
+            "animal": "River wallaby",
+            "legs": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "first_name": "Abdul",
+    "last_name": "Joannic",
+    "email": "ajoannic9@purevolume.com",
+    "gender": "Male",
+    "address": {
+      "street_num": "4304",
+      "street_name": "Sullivan",
+      "city": "Bang Bo District",
+      "country": "Thailand",
+      "zip": "10560",
+      "vehicle": {
+        "car_make": "Chevrolet",
+        "car_model": "2500",
+        "colour": "Pink"
+      }
+    },
+    "friends": [
+      {
+        "first_name": "Aurore",
+        "last_name": "Foxten"
+      },
+      {
+        "first_name": "Baxie",
+        "last_name": "Blanchflower"
+      },
+      {
+        "first_name": "Cly",
+        "last_name": "Albrecht"
+      },
+      {
+        "first_name": "Merline",
+        "last_name": "Inde"
+      }
+    ],
+    "pets": [
+      {
+        "mammal": [
+          {
+            "animal": "Vulture, egyptian",
+            "legs": 1
+          },
+          {
+            "animal": "Brazilian otter",
+            "legs": 2
+          },
+          {
+            "animal": "Cobra, cape",
+            "legs": 3
+          }
+        ]
+      }
+    ]
+  }
+]

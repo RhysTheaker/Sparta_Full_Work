@@ -1,0 +1,13 @@
+<%= form_for [@ground, topic] do |t| %>
+  <div class="field">
+    <%= t.label :pubs %>
+    <%= t.text_area :pubs %>
+  </div>
+  <div class="field">
+    <%= t.label :travel %>
+    <%= t.text_area :travel %>
+  </div>
+  <div class="field">
+    <%= t.submit %>
+  </div>
+<% end %>
